@@ -13,23 +13,27 @@
 
     <header class="l-header" id="header">
         <img src="/img/logo/logo.svg" alt="Sneakers" class="l-header__img">
-        <div class="l-header__icon">
+        <div class="l-header__icon" id="icon">
             <span class="l-header__bar"></span>
             <span class="l-header__bar"></span>
             <span class="l-header__bar"></span>
         </div>
         <nav class="l-header__nav">
             <ul class="l-header__itemList">
-                <li><a href="index.html#pick" class="l-header__itemLink">PICK UP</a></li>
-                <li><a href="index.html#feature" class="l-header__itemLink">FEATURE</a></li>
-                <li><a href="index.html#contact" class="l-header__itemLink">CONTACT</a></li>
+                <li class="l-header__listItem"><a href="index.html#pick" class="l-header__itemLink">PICK UP</a></li>
+                <li class="l-header__listItem"><a href="index.html#feature" class="l-header__itemLink">FEATURE</a></li>
+                <li class="l-header__listItem"><a href="index.html#contact" class="l-header__itemLink">CONTACT</a></li>
             </ul>
             <ul class="l-header__snsList">
-                <li><a href="https://twitter.com/?lang=ja" class="l-header__itemLink">X</a></li>
-                <li><a href="https://www.facebook.com/?locale=ja_JP" class="l-header__itemLink">Facebook</a></li>
-                <li><a href="https://www.instagram.com/" class="l-header__itemLink">Instagram</a></li>
+                <li class="l-header__snsItem"><a href="https://twitter.com/?lang=ja" class="l-header__itemLink">X</a>
+                </li>
+                <li class="l-header__snsItem"><a href="https://www.facebook.com/?locale=ja_JP"
+                        class="l-header__itemLink">Facebook</a></li>
+                <li class="l-header__snsItem"><a href="https://www.instagram.com/"
+                        class="l-header__itemLink">Instagram</a></li>
             </ul>
         </nav>
+        <div class="l-header__fade"></div>
     </header>
     <main class="l-main">
         <section class="p-index-mv">
@@ -156,7 +160,10 @@
     <footer class="l-footer">
         <small class="l-footer__cc">&copy;Sneakers</small>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>

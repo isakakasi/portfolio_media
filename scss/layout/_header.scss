@@ -30,6 +30,7 @@
     width: 30px;
     height: 2px;
     background-color: c.$c-mainFont;
+    transition: all 0.5s;
   }
   &__nav {
     display: block;
@@ -47,6 +48,60 @@
     z-index: 20;
     opacity: 0;
   }
+  &__itemList {
+    height: max-content;
+    padding: 0;
+  }
+  &__itemList .l-header__listItem:nth-child(3) {
+    border-bottom: 1px solid #fff;
+  }
+  &__listItem {
+    padding: 20px 0;
+    border-top: 1px solid #fff;
+  }
+  &__itemLink {
+    color: c.$c-white;
+    text-decoration: none;
+    font-size: 14.4px;
+  }
+  &__snsList {
+    display: grid;
+    padding: 0;
+    margin: 65px 0 0;
+    gap: 10px;
+  }
+  &__fade {
+    opacity: 0;
+  }
+}
+.icon-active {
+  z-index: 20;
+  .l-header__bar:nth-child(1) {
+    transform: translateY(10px) rotate(-315deg);
+    background-color: #fff;
+  }
+  .l-header__bar:nth-child(2) {
+    opacity: 0;
+  }
+  .l-header__bar:nth-child(3) {
+    transform: translateY(-10px) rotate(315deg);
+    background-color: #fff;
+  }
+}
+.fade-active {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.8;
+  z-index: 10;
+}
+.nav-active {
+  left: 0;
+  opacity: 1;
 }
 @media screen and (max-width: 800px) {
   .l-header {

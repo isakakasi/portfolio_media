@@ -1,0 +1,52 @@
+@use "foundation/_color.scss" as c;
+
+.c-form {
+  display: grid;
+  gap: 20px;
+  width: 45%;
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+  &__textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+  &__button {
+    background-color: #121212;
+    color: c.$c-white;
+    border: 1px solid c.$c-white;
+    padding: 12px 0;
+    font-size: 14.4px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .c-form {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    &__input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+    }
+    &__textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+    }
+    &__button {
+      background-color: #121212;
+      color: c.$c-white;
+      border: 1px solid c.$c-white;
+      padding: 12px 0;
+      font-size: 14.4px;
+    }
+  }
+}
+.c-form__button:hover {
+  background-color: c.$c-white;
+  color: #121212;
+}

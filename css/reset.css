@@ -1,3 +1,7 @@
+/* 個人で追加分 */
+* {
+  margin: 0;
+}
 /*** The new CSS reset - version 1.11.1 (last updated 24.10.2023) ***/
 
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg*, symbol*)) {

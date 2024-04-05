@@ -1,0 +1,73 @@
+@use "foundation/_color.scss" as c;
+.p-index-mv {
+  &__video {
+    width: 100%;
+    max-height: 960px;
+    object-fit: cover;
+  }
+}
+.p-index-pick {
+  margin: 100px 0 0;
+  &__imgWrapper {
+    display: flex;
+    margin: 30px 0 0;
+    gap: 60px;
+    overflow: auto;
+  }
+}
+.p-index-feature {
+  max-width: 1240px;
+  padding: 0 16px;
+  margin: 100px auto 60px;
+  &__gridWrapper {
+    margin: 30px 0 0;
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+.p-index-contact {
+  padding: 50px 0;
+  background-color: #121212;
+  color: c.$c-white;
+  &__content {
+    max-width: 1240px;
+    padding: 0 16px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__inform {
+    width: 45%;
+    height: max-content;
+    gap: 30px;
+    display: grid;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .p-index-pick {
+    margin: 79px 0 0;
+    &__imgWrapper {
+      margin: 20px 0 0;
+      gap: 40px;
+    }
+  }
+  .p-index-feature {
+    margin: 100px 16px 90px;
+    &__gridWrapper {
+      margin: 20px 0 0;
+    }
+  }
+  .p-index-contact {
+    padding: 80px 16px;
+    &__content {
+      margin: 0;
+      display: block;
+    }
+    &__inform {
+      width: 100%;
+      margin: 20px 0 30px;
+    }
+  }
+}

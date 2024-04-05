@@ -1,0 +1,17 @@
+@use "foundation/_color.scss" as c;
+
+.c-title {
+  height: 62px;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+.c-title-white {
+  color: c.$c-white;
+}
+@media screen and (max-width: 800px) {
+  .c-title {
+    height: 41px;
+    font-size: 24px;
+  }
+}

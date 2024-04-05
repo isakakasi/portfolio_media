@@ -1,0 +1,11 @@
+@use "foundation/_color.scss" as c;
+
+.l-footer {
+  background-color: #121212;
+  padding: 10px 0;
+  &__cc {
+    display: block;
+    text-align: center;
+    color: c.$c-white;
+  }
+}

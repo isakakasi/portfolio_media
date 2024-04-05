@@ -1,0 +1,26 @@
+.c-feature-card {
+  box-shadow: 0 0 8px 4px #ccc;
+  &__img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &__content {
+    padding: 16px;
+  }
+  &__title {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 0 20px;
+  }
+  &__text {
+    font-size: 14.4px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+  }
+  &__date {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+  }
+}

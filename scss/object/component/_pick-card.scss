@@ -1,0 +1,17 @@
+.c-pick-card {
+  width: 407px;
+  height: 271px;
+}
+.c-pick-cardLap {
+  width: 407px;
+  height: 271px;
+}
+@media screen and (max-width: 800px) {
+  .c-pick-card {
+    width: 235px;
+    height: 156px;
+  }
+  .c-pick-cardLap {
+    display: none;
+  }
+}

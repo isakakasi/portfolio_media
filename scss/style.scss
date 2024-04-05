@@ -1,0 +1,36 @@
+@use "foundation/_font.scss";
+// @use "foundation/_body.scss";
+@use "foundation/_color.scss";
+// @use "foundation/_animation.scss";
+
+@use "layout/_header.scss";
+@use "layout/_main.scss";
+@use "layout/_footer.scss";
+
+@use "object/component/title.scss";
+@use "object/component/pick-card.scss";
+@use "object/component/feature-card.scss";
+// @use "object/component/subtitle.scss";
+// @use "object/component/service-item.scss";
+// @use "object/component/button-arrow.scss";
+// @use "object/component/news-item.scss";
+// @use "object/component/about-item.scss";
+// @use "object/component/footer-item.scss";
+// @use "object/component/constant-arrow.scss";
+// @use "object/component/breadcrumb.scss";
+// @use "object/component/environment.scss";
+// @use "object/component/button.scss";
+// @use "object/component/form-step.scss";
+@use "object/component/form.scss";
+// @use "object/component/hamburger.scss";
+// // @use "object/project/_validation.scss";
+@use "object/project/_index.scss";
+// @use "object/project/service.scss";
+// @use "object/project/news.scss";
+// @use "object/project/about.scss";
+// @use "object/project/recruit.scss";
+// @use "object/project/contact.scss";
+// @use "object/project/contact_completed.scss";
+// @use "object/project/security.scss";
+// @use "object/project/privacypolicy.scss";
+// @use "object/project/_contact_confirm.scss";

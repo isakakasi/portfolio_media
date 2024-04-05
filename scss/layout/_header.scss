@@ -1,0 +1,62 @@
+@use "foundation/_color.scss" as c;
+
+.l-header {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  background-color: #fff;
+  z-index: 10;
+  top: 0;
+  &__img {
+    width: 175.01px;
+    height: 40px;
+    margin: 20px auto 20px 40px;
+  }
+  &__icon {
+    display: block;
+    width: 30px;
+    height: 23px;
+    margin: 28.53px 40px 28.53px auto;
+  }
+  &__icon .l-header__bar:nth-child(2) {
+    top: 8px;
+  }
+  &__icon .l-header__bar:nth-child(3) {
+    top: 16px;
+  }
+  &__bar {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: c.$c-mainFont;
+  }
+  &__nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    width: 300px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #121212;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all 0.5s;
+    z-index: 20;
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .l-header {
+    &__img {
+      width: 179.42px;
+      height: 39.95px;
+      margin: 20px auto 20px 16px;
+    }
+    &__icon {
+      margin: 28.53px 16px 28.53px auto;
+    }
+  }
+}

@@ -9,17 +9,14 @@ URLより実際の挙動を確認できます。https://portfoliomedia-d440c.web
 ## 使用技術
 このプロジェクトでは以下の技術を使用しています
 
-- 使用言語
-  - HTML
-  - SCSS
-- フレームワーク
-  - jQuery
-- デザインツール
-  - figma
-- エディタ
-  - VisualStudio Code
-- ホスティング
-  - Firebase Hosting
+| Category               | Technology Stack  |
+| ---------------------- | ----------------- |
+| 言語 | HTML/SCSS             |
+| フレームワーク             | jQuery |
+| デザインツール     | figma         |
+| エディタ         | VisualStudioCode            |
+| 環境             | Mac    |
+| ホスティング             | Firebase Hosting    |
 
 ## SCSS ファイル構成
     .
@@ -53,7 +50,7 @@ URLより実際の挙動を確認できます。https://portfoliomedia-d440c.web
 ## テスト
 - 手動テスト
 - 互換性テスト
-テスト仕様書 
+テスト仕様書 https://docs.google.com/spreadsheets/d/1ijKlqnS_2c3kG2UpvnaLPJCQZrUSaXK6xUXDHmHbcUI/edit#gid=1765093407
 
 ## 引用
-- デザイン 
+- デザイン https://code-jump.com/
